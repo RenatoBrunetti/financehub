@@ -4,8 +4,8 @@
 
 **FinanceHub** is an application that centralizes the best online financial contents and provides some usable tools to facilitate learn. Our main goal is to promote financial education.
 
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![MIT License][license-shield]][license-url]
 
 ## Table of Contents
 
@@ -67,9 +67,17 @@ yarn start
 
 ## License
 
-Distributed under the **MIT** License.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
 Author: Renato Brunetti<br>
 E-mail: [development@renatobrunetti.com.br](mailto:development@renatobrunetti.com.br)<br>
+Social: [LinkedIn](https://linkedin.com/in/RenatoCarapiaBrunetti/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/RenatoCarapiaBrunetti/
