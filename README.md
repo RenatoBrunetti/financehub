@@ -20,14 +20,22 @@
 
 ## Abouth the Project
 
+This is a hybrid application project and accepts communication through GraphQL and REST depending on the implementation and the need.
+
 ### Built With
 
+**Back-End:**<br>
 [Node.js](https://nodejs.org/) -
 [GraphQL](https://graphql.org/) -
 [Express](https://expressjs.com/) -
-[Typescript](https://www.typescriptlang.org/) -
-[MongoDB](https://www.mongodb.com/) -
-[React](https://reactjs.org/)
+[Typescript](https://www.typescriptlang.org/)
+
+**Front-End:**<br>
+[React](https://reactjs.org/) -
+[SASS](https://sass-lang.com/)
+
+**Database:**<br>
+[MongoDB](https://www.mongodb.com/)
 
 ## Getting Started
 
@@ -52,7 +60,7 @@ yarn
 3. Create a .env file using the sample.env file information and paste your mongodb URI string connection in **MONGODB_CONNECT** variable.
 
 ```JS
-MONGODB_CONNECT = your_mongodb_uri_connection;
+MONGODB_CONNECT = paste_here_your_mongodb_uri_connection;
 ```
 
 ## Usage
