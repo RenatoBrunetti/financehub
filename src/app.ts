@@ -28,7 +28,11 @@ const server = new ApolloServer({
   introspection: true,
   playground: true,
   formatError: (error): any => {
-    console.log('==== error ====', error);
+    console.log('🚨 [ Error ]:');
+    console.log('=====================================================');
+    console.log(error);
+    console.log('=====================================================');
+    return error;
   },
 });
 
