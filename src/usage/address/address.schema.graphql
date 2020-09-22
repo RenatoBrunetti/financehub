@@ -1,0 +1,12 @@
+type FullAddress {
+  cep: String
+  logradouro: String
+  complemento: String
+  bairro: String
+  localidade: String
+  uf: String
+}
+
+type Query {
+  getAddress(zipcode: String): FullAddress
+}
