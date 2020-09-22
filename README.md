@@ -1,4 +1,4 @@
-![FinanceHub](http://renatobrunetti.com.br/projects/financehub/financehub-logo-github.png)
+![FinanceHub](https://renatobrunetti.com.br/projects/financehub/financehub-logo-github.png)
 
 # FinanceHub
 
@@ -22,14 +22,12 @@
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-![](http://renatobrunetti.com.br/projects/tech/nodejs-logo.png)[Node.js](https://nodejs.org/) -
-![](http://renatobrunetti.com.br/projects/tech/graphql-logo.png)[GraphQL](https://graphql.org/) -
-![](http://renatobrunetti.com.br/projects/tech/express-logo.png)[Express](https://expressjs.com/) -
-![](http://renatobrunetti.com.br/projects/tech/typescript-logo.png)[Typescript](https://www.typescriptlang.org/) -
-![](http://renatobrunetti.com.br/projects/tech/mongodb-logo.png)[MongoDB](https://www.mongodb.com/) -
-![](http://renatobrunetti.com.br/projects/tech/react-logo.png)[React](https://reactjs.org/)
+[Node.js](https://nodejs.org/) -
+[GraphQL](https://graphql.org/) -
+[Express](https://expressjs.com/) -
+[Typescript](https://www.typescriptlang.org/) -
+[MongoDB](https://www.mongodb.com/) -
+[React](https://reactjs.org/)
 
 ## Getting Started
 
