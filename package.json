@@ -6,7 +6,8 @@
   "author": "Renato Brunetti <development@renatobrunetti.com.br>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/server.ts",
+    "start:dev": "nodemon src/server.ts",
+    "start": "node dist/server.js",
     "build": "babel src --extensions \".ts, .js\" --out-dir dist --copy-files --no-copy-ignored",
     "test": "jest"
   },

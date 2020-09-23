@@ -13,4 +13,11 @@ export class MongodbUsersRepository implements IUsersRepository {
     const userModel = new UserModel(user);
     userModel.save();
   }
+
+  async remove(user: User): Promise<void> {
+    const { email } = user;
+    UserModel.findOneAndDelete({ email }, (err) => {
+      if (err) throw new Error('Delete user error.');
+    });
+  }
 }

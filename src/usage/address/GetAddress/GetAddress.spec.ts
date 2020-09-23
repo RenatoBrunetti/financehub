@@ -1,5 +1,5 @@
 import { ViaCEPProvider } from '@providers/implementations/ViaCEPProvider';
-import { AddressResolver } from './AddressResolver';
+import { GetAddressResolver } from './GetAddressResolver';
 
 const viaCEP = new ViaCEPProvider();
 
@@ -18,7 +18,7 @@ const ibirapuera = {
 };
 
 test('it should be Parque do Ibirapuera', async () => {
-  const addressResolver = new AddressResolver(viaCEP);
-  const address = await addressResolver.getAddress(zipcode);
+  const getAddressResolver = new GetAddressResolver(viaCEP);
+  const address = await getAddressResolver.byZipcode(zipcode);
   expect(address).toEqual(ibirapuera);
 });

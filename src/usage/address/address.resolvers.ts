@@ -1,13 +1,13 @@
 import { ViaCEPProvider } from '@providers/implementations/ViaCEPProvider';
-import { AddressResolver } from './AddressResolver';
+import { GetAddressResolver } from './GetAddress/GetAddressResolver';
 
 const viaCEP = new ViaCEPProvider();
 
 export default {
   Query: {
     getAddress: async (root, args, context) => {
-      const addressResolver = new AddressResolver(viaCEP);
-      return await addressResolver.getAddress(args);
+      const getAddressResolver = new GetAddressResolver(viaCEP);
+      return await getAddressResolver.byZipcode(args);
     },
   },
 };

@@ -1,10 +1,10 @@
 import { IZipcodeProvider } from '@providers/IZipcodeProvider';
-import { IZipcode } from './AddressDTO';
+import { IZipcode } from './GetAddressDTO';
 
-export class AddressResolver {
+export class GetAddressResolver {
   constructor(private zipcodeProvider: IZipcodeProvider) {}
 
-  async getAddress({ zipcode }: IZipcode): Promise<any> {
+  async byZipcode({ zipcode }: IZipcode): Promise<any> {
     return await this.zipcodeProvider.getAddressByZipcode(zipcode);
   }
 }
