@@ -29,6 +29,7 @@ This is a hybrid application project and accepts communication through GraphQL a
 [GraphQL](https://graphql.org/) -
 [Express](https://expressjs.com/) -
 [Typescript](https://www.typescriptlang.org/)
+[Jest](https://jestjs.io/)
 
 **Front-End:**<br>
 [React](https://reactjs.org/) -
