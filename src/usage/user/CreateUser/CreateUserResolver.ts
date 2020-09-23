@@ -8,7 +8,7 @@ export class CreateUserResolver {
   async execute(data: ICreateUserInput): Promise<any> {
     try {
       const userAlreadyExists = await this.usersRepository.findByEmail(
-        data.email
+        data.email,
       );
       if (userAlreadyExists) {
         throw new Error('User already exists.');

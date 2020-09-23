@@ -14,7 +14,7 @@ export class ViaCEPProvider implements IZipcodeProvider {
     if (request && request.status) {
       return request.result;
     } else {
-      console.log('>>> Error');
+      throw new Error('Zipcode Error.');
     }
   }
 }
