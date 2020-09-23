@@ -1,5 +1,5 @@
+import { ViaCEPProvider } from '@providers/implementations/ViaCEPProvider';
 import { AddressResolver } from './AddressResolver';
-import { ViaCEPProvider } from '../../providers/implementations/ViaCEPProvider';
 
 const viaCEP = new ViaCEPProvider();
 

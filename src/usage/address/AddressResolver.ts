@@ -1,4 +1,4 @@
-import { IZipcodeProvider } from '../../providers/IZipcodeProvider';
+import { IZipcodeProvider } from '@providers/IZipcodeProvider';
 import { IZipcode } from './AddressDTO';
 
 export class AddressResolver {

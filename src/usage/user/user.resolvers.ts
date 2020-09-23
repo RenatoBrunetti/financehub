@@ -1,4 +1,4 @@
-import { MongodbUsersRepository } from '../../repositories/implementations/MongodbUsersRepository';
+import { MongodbUsersRepository } from '@repositories/implementations/MongodbUsersRepository';
 import { CreateUserResolver } from './CreateUser/CreateUserResolver';
 
 const mongodbUsersRepository = new MongodbUsersRepository();

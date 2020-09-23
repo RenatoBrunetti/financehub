@@ -1,4 +1,4 @@
-import { AxiosProvider } from '../../core/implementations/AxiosProvider';
+import { AxiosProvider } from '@core/implementations/AxiosProvider';
 import { IZipcodeProvider } from '../IZipcodeProvider';
 
 export class ViaCEPProvider implements IZipcodeProvider {

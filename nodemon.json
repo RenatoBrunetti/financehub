@@ -3,6 +3,6 @@
   "ignore": ["src/**/*.spec.ts"],
   "ext": "ts, graphql",
   "execMap": {
-    "ts": "node -r sucrase/register ./src/server.ts"
+    "ts": "node -r sucrase/register -r tsconfig-paths/register ./src/server.ts"
   }
 }
