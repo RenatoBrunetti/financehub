@@ -20,23 +20,33 @@
 
 ## Abouth the Project
 
-This is a hybrid application project and accepts communication through GraphQL and REST depending on the implementation and the need.
+This is a full stack project and hybrid application that accepts GraphQL and REST communication depending on the implementation and the need.
 
 ### Built With
 
-**Back-End:**<br>
-[Node.js](https://nodejs.org/) -
-[GraphQL](https://graphql.org/) -
-[Express](https://expressjs.com/) -
-[Typescript](https://www.typescriptlang.org/)
-[Jest](https://jestjs.io/)
+- **Back-End:**<br>
+  |
+  [Node.js](https://nodejs.org/) |
+  [Typescript](https://www.typescriptlang.org/) |
+  [GraphQL](https://graphql.org/) |
+  [Express](https://expressjs.com/)
+  |
 
-**Front-End:**<br>
-[React](https://reactjs.org/) -
-[SASS](https://sass-lang.com/)
+- **Front-End:**<br>
+  |
+  [React](https://reactjs.org/) |
+  [SASS](https://sass-lang.com/)
+  |
 
-**Database:**<br>
-[MongoDB](https://www.mongodb.com/)
+- **Tests:**<br>
+  |
+  [Jest](https://jestjs.io/)
+  |
+
+- **Database:**<br>
+  |
+  [MongoDB](https://www.mongodb.com/)
+  |
 
 ## Getting Started
 
