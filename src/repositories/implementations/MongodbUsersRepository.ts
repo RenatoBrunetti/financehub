@@ -9,14 +9,18 @@ export class MongodbUsersRepository implements IUsersRepository {
     return await UserModel.findOne({ email });
   }
 
+  async findByDocument(document: string): Promise<any> {
+    return await UserModel.findOne({ document });
+  }
+
   async save(user: User): Promise<void> {
     const userModel = new UserModel(user);
     userModel.save();
   }
 
   async remove(user: User): Promise<void> {
-    const { email } = user;
-    UserModel.findOneAndDelete({ email }, (err) => {
+    const { document } = user;
+    UserModel.findOneAndDelete({ document }, (err) => {
       if (err) throw new Error('Delete user error.');
     });
   }

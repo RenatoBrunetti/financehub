@@ -1,4 +1,9 @@
 type Mutation {
-  createUser(name: String!, email: String!, password: String!): String
-  deleteUser(email: String!): String
+  createUser(
+    name: String!
+    document: String!
+    email: String!
+    password: String!
+  ): String
+  deleteUser(email: String, document: String): String
 }

@@ -7,8 +7,8 @@ export class DeleteUserResolver {
 
   async execute(data: IDeleteUserInput): Promise<any> {
     try {
-      const userAlreadyExists = await this.usersRepository.findByEmail(
-        data.email,
+      const userAlreadyExists = await this.usersRepository.findByDocument(
+        data.document,
       );
       if (!userAlreadyExists) {
         throw new Error('Non-existent user.');

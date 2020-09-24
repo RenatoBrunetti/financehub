@@ -1,3 +1,4 @@
 export interface IDeleteUserInput {
-  email: string;
+  email?: string;
+  document?: string;
 }

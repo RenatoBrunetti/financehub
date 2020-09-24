@@ -7,6 +7,12 @@ const userSchema = new mongoose.Schema({
     min: 6,
     max: 255,
   },
+  document: {
+    type: String,
+    required: true,
+    min: 11,
+    max: 11,
+  },
   email: {
     type: String,
     required: true,
@@ -18,6 +24,10 @@ const userSchema = new mongoose.Schema({
     required: true,
     min: 6,
     max: 1024,
+  },
+  status: {
+    type: Boolean,
+    required: true,
   },
 });
 

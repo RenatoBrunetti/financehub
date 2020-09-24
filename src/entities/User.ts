@@ -6,11 +6,13 @@ export class User {
 
   public name: string;
   public email: string;
+  public document: string;
   public password: string;
+  public status: boolean;
 
   constructor(props: Omit<User, '_id, __v'>, _id?: string, __v?: number) {
     Object.assign(this, props);
-
+    if (!this.status) this.status = false;
     // if (!_id) this._id = v4();
   }
 }
