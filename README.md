@@ -1,4 +1,4 @@
-![FinanceHub](https://renatobrunetti.com.br/projects/financehub/financehub-logo-github.png)
+![FinanceHub](https://renatobrunetti.com.br/public/.github/financehub/financehub-logo-github.png)
 
 # FinanceHub
 
